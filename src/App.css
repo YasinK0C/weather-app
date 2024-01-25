@@ -1,0 +1,35 @@
+
+*{
+  
+  background-color: #b6ccff;
+  color: #ffffff;
+  
+}
+.App{
+  display: flex;
+  text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weatherList{
+  width: 80%;
+}
+.weatherIcon{
+    max-width: 100px !important;
+    min-width: 50px !important;
+}
+.weatherCard{
+  border:1px solid #ff4800 !important;
+  margin-right: 20px !important;
+  margin-bottom: 20px !important;
+}
